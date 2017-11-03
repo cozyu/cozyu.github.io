@@ -3,7 +3,7 @@
   [
      <!ENTITY foo SYSTEM "http://192.168.0.8/ping">
   ]>
-<test><testing>&foo;</testing></test>
+
 
 <content>
 <title>Photo</title>
