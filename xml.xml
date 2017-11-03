@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<title>Photo</title>
+<body>
+&lt;p>&lt;img src="./images/1.jpg" width="430">&lt;/p>
+&lt;p>&lt;img src="./images/2.jpg" width="430">&lt;/p>
+&lt;p>&lt;img src="./images/3.png" width="430">&lt;/p>
+&lt;p>&lt;img src="./images/4.gif" width="430">&lt;/p>
+</body>
+</content>
