@@ -1,6 +1,5 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE replace [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php"> ]>
 <title>Photo</title>
 <body>
 &lt;p>&lt;img src="./images/1.jpg" width="430">&lt;/p>
