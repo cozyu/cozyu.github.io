@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo1 [<!ENTITY xxe SYSTEM "/etc/passwd" >]>
 <content>
 <title>Photo</title>
 <body>
