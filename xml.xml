@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE root
   [
-     <!ENTITY foo SYSTEM "./images/1.jpg">
+     <!ENTITY foo SYSTEM "http://192.168.0.8/ping">
   ]>
 <test><testing>&foo;</testing></test>
 
