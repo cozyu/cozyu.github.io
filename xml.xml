@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root
+  [
+     <!ENTITY foo SYSTEM "./images/1.jpg">
+  ]>
+<test><testing>&foo;</testing></test>
+
 <content>
 <title>Photo</title>
 <body>
