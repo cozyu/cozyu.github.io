@@ -1,6 +1,6 @@
 <video id="player" controls autoplay></video>
 <button id="capture">Capture</button>
-<canvas id="snapshot" width=320 height=240></canvas>
+<canvas id="snapshot" width=1024 height=768></canvas>
 <script>
   var player = document.getElementById('player'); 
   var snapshotCanvas = document.getElementById('snapshot');
@@ -15,7 +15,7 @@
     var context = snapshot.getContext('2d');
     // Draw the video frame to the canvas.
     context.drawImage(player, 0, 0, snapshotCanvas.width, 
-        snapshotCanvas.height);
+        snapshotCanvas.height);    
   });
 
   navigator.mediaDevices.getUserMedia({video: true})
