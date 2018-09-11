@@ -23,7 +23,8 @@
       
   function nextPage(){
     var context = snapshot.getContext('2d');
-    context.clearRect(0, 0, snapshotCanvas.width, snapshotCanvas.height);
+    context.fillRect(0, 0, snapshotCanvas.width, snapshotCanvas.height);
+    context.clearRect(0, 0, snapshotCanvas.width, snapshotCanvas.height);    
     location.href="hello.html";
   }
 </script>
