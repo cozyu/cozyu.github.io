@@ -21,10 +21,10 @@
   navigator.mediaDevices.getUserMedia({video: true})
       .then(handleSuccess);
       
-  function test(){
+  function nextPage(){
     var context = snapshot.getContext('2d');
     context.clearRect(0, 0, snapshotCanvas.width, snapshotCanvas.height);
     location.href="hello.html";
   }
 </script>
-<input type="button" name="button1" value="Next" style="width:100;height:40;" onclick="javascript:test();">
+<input type="button" name="button1" value="Next" style="width:100;height:40;" onclick="javascript:nextPage();">
